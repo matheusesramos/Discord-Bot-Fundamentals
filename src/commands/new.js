@@ -29,6 +29,8 @@ const execute = async (bot, msg, args) => {
 
 module.exports = {
     name: "new",
-    help: `Cria um novo usuário na base de usuários.\nArgumentos: usuário, senha, cor\nExemplo: !new matheus, 12345, #FF0000`,
+    help: "Cria um novo usuário na base de usuários.",
+    args: "usuário, senha, cor",
+    example: "!new matheus, 12345, #FF0000",
     execute
 }

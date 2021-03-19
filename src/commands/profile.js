@@ -29,6 +29,8 @@ const execute = async (bot, msg, args) => {
 
 module.exports = {
     name: "profile",
-    help: "Retorna o perfil do usuário informado.",
+    help: "Exibe o perfil de um usuário.",
+    args: "usuário",
+    example: "!profile matheus",
     execute
 }
